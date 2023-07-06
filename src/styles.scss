@@ -47,18 +47,29 @@
 }
 
 .column {
-  background: #888;
+  background: #aaa;
   padding: 1em;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.submitButton {
+  margin-top: 1em;
+  background: #646cff;
+  color: #fff;
+  font-weight: bold;
 }
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.resultSection {
+  margin-top: 2em;
+}
+
+.list {
+  list-style: decimal
+}
+
+.listItem {
+  text-align: left;
+  text-indent: 1em;
 }

@@ -19,8 +19,6 @@ export const DraggableCard: FC<Props> = ({ id, title }) => {
   }
 
   return (
-    // attributes、listenersはDOMイベントを検知するために利用します。
-    // listenersを任意の領域に付与することで、ドラッグするためのハンドルを作ることもできます。
     <div ref={setNodeRef} {...attributes} {...listeners} style={style}>
       <div id={id} className="card">
         <p>{title}</p>
